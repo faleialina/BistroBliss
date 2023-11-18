@@ -5,7 +5,7 @@ export default function Header() {
       <div className={style.info}>
         <div className={style.phone}>
           <div className={style.imgPhone}></div>
-          <p>(414)857 - 0107</p>
+          <p>(414) 857 - 0107</p>
         </div>
 
         <div className={style.mail}>

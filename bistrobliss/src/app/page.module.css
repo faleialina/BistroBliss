@@ -9,5 +9,215 @@
     background-image: url(../../public/assets/HomePage/main.svg);
     background-repeat: no-repeat;
     width: 1600px;
-    height: 2250px;
+    height: 798px;
+}
+
+.mainText {
+    color: var(--neutral-07, #2C2F24);
+    margin: auto;
+    text-align: center;
+    width: 667px;
+}
+
+.mainText h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 400 100px Playfair Display;
+    margin-top: 171px;
+}
+
+.mainText p {
+    color: var(--neutral-07, #2C2F24);
+    font: 400 20px DM Sans;
+    margin-top: 32px;
+}
+
+.mainBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.btnTable {
+    background: #AD343E;
+    border-radius: 118px;
+    padding: 20px 32px;
+    color: var(--neutral-01, #FFF);
+    font: 700 16px DM Sans;
+}
+
+.btnMenu {
+    border-radius: 118px;
+    border: 1.5px solid var(--neutral-07, #2C2F24);
+    padding: 20px 32px;
+    color: var(--neutral-07, #182226);
+    font: 700 16px DM Sans;
+}
+
+.blockmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--neutral-01, #FFF);
+    width: 1600px;
+    height: 712px;
+}
+
+.blockmenuTitle {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font: 500 55px Playfair Display;
+    margin-top: 92px;
+}
+
+.blockmenuItemsWrap {
+    display: flex;
+    gap: 24px;
+    margin-top: 64px;
+
+}
+
+.blockmenuItems {
+    width: 306px;
+    height: 375px;
+    border-radius: 12px;
+    border: 1.5px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+    text-align: center;
+}
+
+.imgBreakfast {
+    background-image: url(../../public/assets/HomePage/Breakfast.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.imgMainDishes {
+    background-image: url(../../public/assets/HomePage/MainDishes.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.imgDrinks {
+    background-image: url(../../public/assets/HomePage/Drinks.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.imgDesserts {
+    background-image: url(../../public/assets/HomePage/Desserts.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.blockmenuText h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 700 24px DM Sans;
+    margin-top: 30px;
+}
+
+.blockmenuText p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+    margin-top: 15px;
+}
+
+.btnBlockenu {
+    width: 111px;
+    height: 26px;
+    border: unset;
+    background-color: #FFF;
+    color: #AD343E;
+    font: 700 16px DM Sans;
+    margin-top: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 868px;
+
+    background-color: #F9F9F7;
+
+}
+
+
+.servicesTitle {
+    color: var(--neutral-07, #2C2F24);
+    /* text-align: center; */
+    font: 500 55px Playfair Display;
+    margin-top: 120px;
+
+}
+
+.servicesItemsWrap {
+    display: flex;
+    gap: 24px;
+    margin-top: 64px;
+    margin: auto;
+}
+
+.servicesItems {
+    width: 306px;
+    height: 375px;
+    background: var(--neutral-01, #FFF);
+
+}
+
+.imgCaterings {
+    background-image: url(../../public/assets/HomePage/Caterings.svg);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    margin: auto;
+}
+
+.imgBirthdays {
+    background-image: url(../../public/assets/HomePage/Birthdays.svg);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    margin: auto;
+}
+
+.imgWeddings {
+    background-image: url(../../public/assets/HomePage/Weddings.svg);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    margin: auto;
+}
+
+.imgEvents {
+    background-image: url(../../public/assets/HomePage/Events.svg);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    margin: auto;
+}
+
+.servicesText h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 700 24px DM Sans;
+    margin-top: 30px;
+}
+
+.servicesText p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
+    margin-top: 15px;
 }

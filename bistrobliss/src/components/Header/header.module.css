@@ -1,7 +1,7 @@
 .headerWrap {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width:1293px;
     margin: auto;
 }
 
@@ -12,6 +12,7 @@
     height: 45px;
     background: #474747;
     padding: 9px 154px 8px 150px;
+    justify-content: space-between;
 }
 
 .phone,
@@ -45,7 +46,7 @@
 .images {
     display: flex;
     gap: 8px;
-    margin-left: 831px;
+   justify-content: space-between;
 }
 
 .imgTwitter {
@@ -83,12 +84,13 @@
 
 .navigation {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     height: 84px;
     background: #F9F9F7;
-    padding: 9px 154px 8px 150px;
-}
+    /* padding: 9px 154px 8px 150px; */
+    /* justify-content: space-between; */
+   }
 
 .logo {
     background-image: url(../../../public/assets/Header/japaneseFood.svg);

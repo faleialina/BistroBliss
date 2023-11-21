@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import style from '../Header/header.module.css';
 export default function Header() {
   return (
@@ -6,12 +7,11 @@ export default function Header() {
         <div className={style.phone}>
           <div className={style.imgPhone}></div>
           <p>(414) 857 - 0107</p>
-        </div>
-
-        <div className={style.mail}>
+           <div className={style.mail}>
           <div className={style.imgMail}></div>
           <p>yummy@bistrobliss</p>
         </div>
+        </div>   
 
         <div className={style.images}>
           <div className={style.imgTwitter}></div>
@@ -25,7 +25,11 @@ export default function Header() {
         <div className={style.logo}></div>
         <h1>Bistro Bliss</h1>
         <div className={style.elemNavig}>
-          {['Home', 'About', 'Menu'].map((el, index) => <p key={index}>{el}</p>)}
+          {/* {['home', 'about', 'menu'].map((el, index) => <p key={index}><Link href={el}>{el}</Link></p>)} */}
+          <p><Link href='/'>home</Link></p>
+          <p><Link href='/about'>about</Link></p>
+          <p><Link href='/menu'>menu</Link></p>
+
         </div>
 
         <button className={style.btn}>Book A Table</button>

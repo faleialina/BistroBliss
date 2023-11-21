@@ -1,14 +1,14 @@
 .main {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width: 1293px;
     margin: auto;
 }
 
 .imgmain {
     background-image: url(../../public/assets/HomePage/main.svg);
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 1293px;
     height: 798px;
 }
 
@@ -60,7 +60,7 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--neutral-01, #FFF);
-    width: 1600px;
+    width: 1293px;
     height: 712px;
 }
 
@@ -148,7 +148,7 @@
 .services {
     display: flex;
     flex-direction: column;
-    width: 1600px;
+    width: 1293px;
     height: 868px;
 
     background-color: #F9F9F7;

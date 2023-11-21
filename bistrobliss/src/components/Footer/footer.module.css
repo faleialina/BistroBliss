@@ -1,7 +1,7 @@
 .footerWrap {
     display: flex;
     max-width: 1293px;
-    height: 778px;
+    padding: 120px 0;
     margin: auto;
     background-color: #474747;
     flex-direction: column;
@@ -10,35 +10,49 @@
 .col {
     display: flex;
     gap: 135px;
-    margin-top: 120px;
-    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+    gap: 30px;
 }
 
 .col1Title {
     display: flex;
+    gap: 5px;
 
 }
 
 .col1Title h1 {
     color: #FFF;
-
+    font-style: italic;
     font: 600 32px Playfair Display;
+
 }
-
-
 
 .imgCol1 {
     background-image: url(../../../public/assets/Footer/japanese-food\ \(1\).svg);
     background-repeat: no-repeat;
     width: 56px;
     height: 55px;
-    border-radius: 12px;
-    margin: auto;
+    background-size: contain;
 }
 
 .col2 {
     display: flex;
-    gap: 120px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.col2 h1,
+.col3 h1 {
+    color: var(--neutral-01, #FFF);
+    font: 700 16px DM Sans;
+
 }
 
 .col1 p,
@@ -51,61 +65,66 @@
 .col3 {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 
 }
 
-.col2 h1,
-.col3 h1 {
-    color: var(--neutral-01, #FFF);
+.col3 h2 {
     font: 700 16px DM Sans;
-    margin-bottom: 40px;
+    color: var(--neutral-01, #FFF);
 }
 
 .imgsCol3 {
     display: flex;
     flex-wrap: wrap;
-
+    gap: 5px;
 }
 
 .img1 {
     background-image: url(../../../public/assets/Footer/pexels-steve-3789885\ 1.svg);
     background-repeat: no-repeat;
-    width: 222px;
-    height: 176px;
+    width: 195px;
+    height: 170px;
     border-radius: 12px;
-    margin: auto;
+    background-size: contain;
 }
 
 .img2 {
     background-image: url(../../../public/assets/Footer/eiliv-aceron-d5PbKQJ0Lu8-unsplash\ 1.svg);
     background-repeat: no-repeat;
-    width: 222px;
-    height: 176px;
+    width: 195px;
+    height: 170px;
     border-radius: 12px;
-    margin: auto;
+    background-size: contain;
 }
 
 .img3 {
     background-image: url(../../../public/assets/Footer/pexels-ella-olsson-1640772\ 1.svg);
     background-repeat: no-repeat;
-    width: 222px;
-    height: 176px;
+    width: 195px;
+    height: 170px;
     border-radius: 12px;
-    margin: auto;
+    background-size: contain;
 }
 
 .img4 {
     background-image: url(../../../public/assets/Footer/pexels-ash-376464\ 1.svg);
     background-repeat: no-repeat;
-    width: 222px;
-    height: 176px;
+    width: 195px;
+    height: 170px;
     border-radius: 12px;
-    margin: auto;
+    background-size: contain;
+}
+
+.line {
+    width: 1293px;
+    height: 1px;
+    background: #414536;
+    margin-bottom: 30px;
 }
 
 .hashtag {
     color: var(--neutral-04, #ADB29E);
-    margin-top: 130px;
     font: 400 16px DM Sans;
     text-align: center;
 }

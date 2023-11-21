@@ -14,7 +14,7 @@ export default function About() {
             </section>
             <section className={style.statistic}>
                 <div className={style.wrapStatistic}>
-                    <div className={style.aboutText}>
+                    <div className={style.statisticText}>
                         <h1>A little information for our valuable guest</h1>
                         <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
                     </div>

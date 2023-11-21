@@ -48,7 +48,8 @@
     display: flex;
     max-width: 1293px;
     margin: auto;
-    gap: 90px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .imgStatistic {
@@ -67,13 +68,31 @@
     align-items: center;
     flex-direction: column;
     width: 610px;
+    gap: 20px;
+}
 
+.statisticText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 610px;
+    gap: 20px;
+}
+
+.statisticText h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 55px Playfair Display;
+}
+
+.statisticText p {
+    color: var(--neutral-06, #414536);
+    font: 400 16px DM Sans;
 }
 
 .statisticBlock {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
 }
 
 .item_1,
@@ -81,7 +100,6 @@
 .item_3,
 .item_4 {
     width: 293px;
-    background-color: beige;
     padding: 30px 0;
     border-radius: 8px;
     border: 1px solid var(--neutral-03, #DBDFD0);

@@ -1,7 +1,7 @@
 .headerWrap {
     display: flex;
     flex-direction: column;
-    max-width:1293px;
+    max-width: 1293px;
     margin: auto;
 }
 
@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 45px;
+
     background: #474747;
-    padding: 9px 154px 8px 150px;
+    padding: 9px 0;
     justify-content: space-between;
 }
 
@@ -32,6 +32,7 @@
 .imgPhone {
     background-image: url(../../../public/assets/Header/phone.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 18px;
     height: 18px;
 }
@@ -39,6 +40,7 @@
 .imgMail {
     background-image: url(../../../public/assets/Header/mail.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 18px;
     height: 18px;
 }
@@ -46,7 +48,7 @@
 .images {
     display: flex;
     gap: 8px;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .imgTwitter {
@@ -63,7 +65,6 @@
     background-size: contain;
     width: 27px;
     height: 27px;
-
 }
 
 .imgInstagram {
@@ -84,26 +85,31 @@
 
 .navigation {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     align-items: center;
-    height: 84px;
     background: #F9F9F7;
-    /* padding: 9px 154px 8px 150px; */
-    /* justify-content: space-between; */
-   }
+    padding: 9px 0;
+    justify-content: space-between;
+}
+
+.logomain {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
 
 .logo {
     background-image: url(../../../public/assets/Header/japaneseFood.svg);
     background-repeat: no-repeat;
     width: 56px;
     height: 56px;
-    margin-right: 8px;
+    background-size: contain;
 }
 
 .navigation h1 {
     color: #474747;
     font: 600 42px Playfair Display;
-    margin-right: 340px;
+    font-style: italic;
 }
 
 .elemNavig {
@@ -111,7 +117,6 @@
     color: var(--neutral-07, #2C2F24);
     font: 500 16px DM Sans;
     gap: 40px;
-    margin-right: 340px;
 }
 
 .btn {

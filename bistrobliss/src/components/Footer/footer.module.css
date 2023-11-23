@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../../../public/fonts/DMSans_36pt-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../../../public/fonts/DMSans_36pt-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../../../public/fonts/PlayfairDisplay-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+}
+
 .footerWrap {
     display: flex;
     max-width: 1293px;
@@ -10,8 +28,9 @@
 .col {
     display: flex;
     gap: 135px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 100px;
+
 }
 
 .col1 {

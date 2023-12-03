@@ -1,6 +1,8 @@
-.headerWrap {
-    display: flex;
-    flex-direction: column;
+.colorinfo {
+    background: #474747;
+}
+
+.header {
     max-width: 1293px;
     margin: auto;
 }
@@ -83,6 +85,10 @@
     height: 27px;
 }
 
+.colorNav {
+    background: #F9F9F7;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -90,6 +96,8 @@
     background: #F9F9F7;
     padding: 9px 0;
     justify-content: space-between;
+    max-width: 1293px;
+    margin: auto;
 }
 
 .logomain {

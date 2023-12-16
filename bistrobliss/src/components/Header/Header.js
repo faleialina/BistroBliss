@@ -31,9 +31,9 @@ export default function Header() {
         </div>
         <div className={style.elemNavig}>
           {/* {['home', 'about', 'menu'].map((el, index) => <p key={index}><Link href={el}>{el}</Link></p>)} */}
-          <p><Link href='/'>home</Link></p>
-          <p><Link href='/about'>about</Link></p>
-          <p><Link href='/menu'>menu</Link></p>
+          <p><Link href='/'>Home</Link></p>
+          <p><Link href='/about'>About</Link></p>
+          <p><Link href='/menu'>Menu</Link></p>
         </div>
         <button className={style.btn}>Book A Table</button>
       </div>

@@ -1,3 +1,7 @@
+.colorfooter {
+    background: #474747;
+}
+
 .footerWrap {
     display: flex;
     max-width: 1293px;
@@ -47,10 +51,11 @@
     display: flex;
     justify-content: space-between;
     gap: 100px;
-    
+
 }
-.col2Text{
-    width: 145px;  
+
+.col2Text {
+    width: 145px;
 }
 
 .col2 h1,

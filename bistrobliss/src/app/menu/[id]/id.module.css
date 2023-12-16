@@ -1,5 +1,5 @@
-.wrapper {
-    background: var(--neutral-01, #FFF);
+.wrapperColor {
+    background: #F9F9F7;
 }
 
 .wrapperItem {

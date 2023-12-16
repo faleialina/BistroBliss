@@ -1,15 +1,19 @@
+.colormain {
+    background: #F9F9F7;
+}
+
 .main {
     display: flex;
     flex-direction: column;
-    max-width: 1293px;
     margin: auto;
 }
 
 .imgmain {
     background-image: url(../../public/assets/HomePage/main.svg);
     background-repeat: no-repeat;
-    width: 1293px;
-    height: 798px;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
 }
 
 .mainText {
@@ -55,12 +59,16 @@
     font: 700 16px DM Sans;
 }
 
+.colorBlockmenu {
+    background: var(--neutral-01, #FFF);
+
+}
+
 .blockmenu {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--neutral-01, #FFF);
-    width: 1293px;
     height: 712px;
 }
 
@@ -148,9 +156,7 @@
 .services {
     display: flex;
     flex-direction: column;
-    width: 1293px;
     height: 868px;
-
     background-color: #F9F9F7;
 
 }
@@ -158,7 +164,7 @@
 
 .servicesTitle {
     color: var(--neutral-07, #2C2F24);
-    /* text-align: center; */
+    text-align: center;
     font: 500 55px Playfair Display;
     margin-top: 120px;
 

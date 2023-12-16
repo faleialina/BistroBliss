@@ -1,7 +1,7 @@
 import style from './about.module.css'
 export default function About() {
     return (
-        <main>
+        <main className={style.main}>
             <section className={style.mainAbout}>
                 <div className={style.wrap}>
                     <div className={style.imgAbout}></div>

@@ -1,3 +1,7 @@
+.main {
+    background: var(--neutral-02, #F9F9F7);  
+}
+
 .mainAbout {
     display: flex;
     flex-direction: column;
@@ -50,6 +54,7 @@
     margin: auto;
     justify-content: space-between;
     align-items: center;
+    padding: 138px 0;
 }
 
 .imgStatistic {

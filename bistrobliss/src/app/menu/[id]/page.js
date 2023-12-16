@@ -15,11 +15,12 @@ export default function Id() {
   }, [id])
 
   return (
-    <div className={style.wrapper}>
+
+    <div className={style.wrapperColor}>
       <div className={style.wrapperItem}>
-        
-          <Image className={style.imgItem} src={data?.img} />
-      
+
+        <Image className={style.imgItem} src={data?.img} />
+
         <div className={style.textItem}>
           <h1>{data?.title}</h1>
           <h2>{data?.description}</h2>
@@ -27,5 +28,6 @@ export default function Id() {
         </div>
       </div>
     </div>
+
   )
 }

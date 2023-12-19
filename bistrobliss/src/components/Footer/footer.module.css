@@ -16,7 +16,6 @@
     gap: 135px;
     justify-content: space-between;
     margin-bottom: 100px;
-
 }
 
 .col1 {
@@ -29,14 +28,12 @@
 .col1Title {
     display: flex;
     gap: 5px;
-
 }
 
 .col1Title h1 {
     color: #FFF;
     font-style: italic;
     font: 600 32px Playfair Display;
-
 }
 
 .imgCol1 {
@@ -51,7 +48,6 @@
     display: flex;
     justify-content: space-between;
     gap: 100px;
-
 }
 
 .col2Text {
@@ -62,7 +58,6 @@
 .col3 h1 {
     color: var(--neutral-01, #FFF);
     font: 700 16px DM Sans;
-
 }
 
 .col1 p,

@@ -3,9 +3,9 @@ import style from './page.module.css'
 
 export default function HomePage() {
   return (
-     <div className={style.colormain}>
+    <div className={style.colormain}>
       <main className={style.main}>
-       
+
         <section className={style.imgmain}>
           <div className={style.mainText}>
             <h1>Best food for your taste</h1>
@@ -16,7 +16,7 @@ export default function HomePage() {
             <button className={style.btnMenu}>Explore Menu</button>
           </div>
         </section>
-        
+
         <div className={style.colorBlockmenu}>
           <section className={style.blockmenu}>
             <div className={style.blockmenuTitle}>Browse Our Menu </div>
@@ -106,6 +106,6 @@ export default function HomePage() {
 
         </section>
       </main>
-      </div>
+    </div>
   )
 }

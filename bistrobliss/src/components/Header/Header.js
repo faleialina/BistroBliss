@@ -24,20 +24,20 @@ export default function Header() {
         </div>
       </div>
       <div className={style.colorNav}>
-      <div className={style.navigation}>
-        <div className={style.logomain}>
-          <div className={style.logo}></div>
-          <h1>Bistro Bliss</h1>
+        <div className={style.navigation}>
+          <div className={style.logomain}>
+            <div className={style.logo}></div>
+            <h1>Bistro Bliss</h1>
+          </div>
+          <div className={style.elemNavig}>
+            {/* {['home', 'about', 'menu'].map((el, index) => <p key={index}><Link href={el}>{el}</Link></p>)} */}
+            <p><Link href='/'>Home</Link></p>
+            <p><Link href='/about'>About</Link></p>
+            <p><Link href='/menu'>Menu</Link></p>
+          </div>
+          <button className={style.btn}>Book A Table</button>
         </div>
-        <div className={style.elemNavig}>
-          {/* {['home', 'about', 'menu'].map((el, index) => <p key={index}><Link href={el}>{el}</Link></p>)} */}
-          <p><Link href='/'>Home</Link></p>
-          <p><Link href='/about'>About</Link></p>
-          <p><Link href='/menu'>Menu</Link></p>
-        </div>
-        <button className={style.btn}>Book A Table</button>
       </div>
     </div>
-</div>
   )
 }
